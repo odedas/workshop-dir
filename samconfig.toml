@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "step-functions-workshop"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1hb67w5gu6hq3"
+s3_prefix = "step-functions-workshop"
+region = "us-west-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
